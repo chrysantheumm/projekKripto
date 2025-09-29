@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_projekkripto_FILE /home/aracelli/Downloads/k/projekKripto/build/Desktop_Qt_6_9_2-Debug/projekkripto)
+set(__QT_DEPLOY_TARGET_projekkripto_TYPE EXECUTABLE)

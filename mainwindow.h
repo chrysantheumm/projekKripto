@@ -21,6 +21,7 @@ private slots:
     void on_pushButtonEncrypt_clicked();
     void on_pushButtonBack_clicked();
 
+
     void on_pushButtonViginere_clicked();
     void on_pushButtonEncryptViginere_clicked();
     void on_pushButtonDecryptViginere_clicked();
@@ -33,11 +34,14 @@ private slots:
     void on_pushButtonSuper_clicked();
     void on_pushButtonBackSuper_clicked();
 
-
     void on_pushButtonBlock_clicked();
     void on_pushButtonBlockEncrypt_clicked();
     void on_pushButtonBlockDecrypt_clicked();
     void on_pushButtonBackBlock_clicked();
+
+    void on_pushButtonDecryptCaesar_clicked();
+    void on_pushButtonEncryptSuper_clicked();
+    void on_pushButtonDecryptSuper_clicked();
 
 private:
     Ui::MainWindow *ui;

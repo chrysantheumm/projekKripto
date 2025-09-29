@@ -1,13 +1,13 @@
 projekkripto_autogen/timestamp: \
-	/home/aracelli/Kuliah/Kriptografi/projekkripto/CMakeLists.txt \
-	/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/.qtc/package-manager/auto-setup.cmake \
-	/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/.qtc/package-manager/maintenance_tool_provider.cmake \
-	/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
-	/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
-	/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/projekkripto_autogen/moc_predefs.h \
-	/home/aracelli/Kuliah/Kriptografi/projekkripto/main.cpp \
-	/home/aracelli/Kuliah/Kriptografi/projekkripto/mainwindow.cpp \
-	/home/aracelli/Kuliah/Kriptografi/projekkripto/mainwindow.h \
+	/home/aracelli/Downloads/k/projekKripto/CMakeLists.txt \
+	/home/aracelli/Downloads/k/projekKripto/build/Desktop_Qt_6_9_2-Debug/.qtc/package-manager/auto-setup.cmake \
+	/home/aracelli/Downloads/k/projekKripto/build/Desktop_Qt_6_9_2-Debug/.qtc/package-manager/maintenance_tool_provider.cmake \
+	/home/aracelli/Downloads/k/projekKripto/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
+	/home/aracelli/Downloads/k/projekKripto/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
+	/home/aracelli/Downloads/k/projekKripto/build/Desktop_Qt_6_9_2-Debug/projekkripto_autogen/moc_predefs.h \
+	/home/aracelli/Downloads/k/projekKripto/main.cpp \
+	/home/aracelli/Downloads/k/projekKripto/mainwindow.cpp \
+	/home/aracelli/Downloads/k/projekKripto/mainwindow.h \
 	/home/aracelli/Qt/6.9.2/gcc_64/include/QtCore/QString \
 	/home/aracelli/Qt/6.9.2/gcc_64/include/QtCore/q17memory.h \
 	/home/aracelli/Qt/6.9.2/gcc_64/include/QtCore/q20functional.h \
@@ -784,5 +784,5 @@ projekkripto_autogen/timestamp: \
 	/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
 	/usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
 	/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
-	/home/aracelli/Kuliah/Kriptografi/projekkripto/mainwindow.ui \
+	/home/aracelli/Downloads/k/projekKripto/mainwindow.ui \
 	/home/aracelli/Qt/Tools/CMake/bin/cmake

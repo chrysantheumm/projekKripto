@@ -52,7 +52,14 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         "on_pushButtonXorDecrypt_clicked",
         "on_pushButtonBackXor_clicked",
         "on_pushButtonSuper_clicked",
-        "on_pushButtonBackSuper_clicked"
+        "on_pushButtonBackSuper_clicked",
+        "on_pushButtonBlock_clicked",
+        "on_pushButtonBlockEncrypt_clicked",
+        "on_pushButtonBlockDecrypt_clicked",
+        "on_pushButtonBackBlock_clicked",
+        "on_pushButtonDecryptCaesar_clicked",
+        "on_pushButtonEncryptSuper_clicked",
+        "on_pushButtonDecryptSuper_clicked"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -82,6 +89,20 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         QtMocHelpers::SlotData<void()>(13, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'on_pushButtonBackSuper_clicked'
         QtMocHelpers::SlotData<void()>(14, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButtonBlock_clicked'
+        QtMocHelpers::SlotData<void()>(15, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButtonBlockEncrypt_clicked'
+        QtMocHelpers::SlotData<void()>(16, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButtonBlockDecrypt_clicked'
+        QtMocHelpers::SlotData<void()>(17, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButtonBackBlock_clicked'
+        QtMocHelpers::SlotData<void()>(18, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButtonDecryptCaesar_clicked'
+        QtMocHelpers::SlotData<void()>(19, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButtonEncryptSuper_clicked'
+        QtMocHelpers::SlotData<void()>(20, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButtonDecryptSuper_clicked'
+        QtMocHelpers::SlotData<void()>(21, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -118,6 +139,13 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 10: _t->on_pushButtonBackXor_clicked(); break;
         case 11: _t->on_pushButtonSuper_clicked(); break;
         case 12: _t->on_pushButtonBackSuper_clicked(); break;
+        case 13: _t->on_pushButtonBlock_clicked(); break;
+        case 14: _t->on_pushButtonBlockEncrypt_clicked(); break;
+        case 15: _t->on_pushButtonBlockDecrypt_clicked(); break;
+        case 16: _t->on_pushButtonBackBlock_clicked(); break;
+        case 17: _t->on_pushButtonDecryptCaesar_clicked(); break;
+        case 18: _t->on_pushButtonEncryptSuper_clicked(); break;
+        case 19: _t->on_pushButtonDecryptSuper_clicked(); break;
         default: ;
         }
     }
@@ -143,14 +171,14 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 13)
+        if (_id < 20)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 13;
+        _id -= 20;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 13)
+        if (_id < 20)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 13;
+        _id -= 20;
     }
     return _id;
 }

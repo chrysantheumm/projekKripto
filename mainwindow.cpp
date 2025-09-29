@@ -74,6 +74,40 @@ void MainWindow::on_pushButtonBackBlock_clicked()
 }
 
 
+// Tombol Decrypt Super
+void MainWindow::on_pushButtonDecryptSuper_clicked()
+{
+
+    QString text = ui->lineEditInputTextSuper->text();
+    int shiftValue = ui->lineEditShiftSuper->text().toInt();
+    QString kataKunci = ui->lineEditInputSuper2->text() ;
+    QString kunciXor = ui->lineEditInputSuper3->text();
+
+    XorDecrypt(text, kunciXor);
+    decryptviginere(text, kataKunci);
+    shiftASCII(text, -shiftValue);
+    ui->lineOutputSuper->setText(text);
+
+}
+
+    // Tombol Encrypt Super
+    void MainWindow::on_pushButtonEncryptSuper_clicked()
+{
+        QString text = ui->lineEditInputTextSuper->text();
+        int shiftValue = ui->lineEditShiftSuper->text().toInt();
+        QString kataKunci = ui->lineEditInputSuper2->text() ;
+        QString kunciXor = ui->lineEditInputSuper3->text();
+
+        //enkripsi caesar
+        shiftASCII(text, shiftValue);
+        //enkripsi viginere
+        viginere(text, kataKunci);
+        //enkripsi XOR
+        XorEncrypt(text, kunciXor);
+        ui->lineOutputSuper->setText(text);
+
+}
+
 
 
 // Tombol Encrypt Caesar
@@ -84,6 +118,19 @@ void MainWindow::on_pushButtonEncrypt_clicked()
 
     shiftASCII(text, shiftValue);
     ui->lineOutputCaesar->setText(text);
+
+}
+
+// Tombol Decrypt Caesar
+void MainWindow::on_pushButtonDecryptCaesar_clicked()
+{
+
+    QString text = ui->lineEditInput->text();
+    int shiftValue = ui->lineEditShift->text().toInt() ;
+    shiftValue = -shiftValue;
+    shiftASCII(text, shiftValue);
+    ui->lineOutputCaesar->setText(text);
+
 }
 
 //Tombol Encrypt Viginere
@@ -172,7 +219,7 @@ void MainWindow::decryptviginere(QString &plain, QString kataKunci)
             shift = kataKunciShift - 'A';
 
         if (c >= 'a' && c <= 'z') {
-            c = ( (c - 'a' - shift + 26) % 26 ) + 'a';  // +26 untuk menghindari negatif
+            c = ( (c - 'a' - shift + 26) % 26 ) + 'a';
         }
         else if (c >= 'A' && c <= 'Z') {
             c = ( (c - 'A' - shift + 26) % 26 ) + 'A';
@@ -228,10 +275,10 @@ void MainWindow::shiftASCII(QString &plain, int shiftValue)
             c = ((c - 'A' + (shiftValue % 26) + 26) % 26) + 'A';
         }
         else {
-            c = c + shiftValue; // karakter non-alfabet ikut digeser
+            c = c + 26 + shiftValue; // karakter non-alfabet ikut digeser
         }
 
-        plain[i] = c; // assign kembali ke QString
+        plain[i] = c;
     }
 }
 

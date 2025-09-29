@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/aracelli/Qt/Tools/CMake/bin/cmake --regenerate-during-build -S/home/aracelli/Kuliah/Kriptografi/projekkripto -B/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug
+  command = /home/aracelli/Qt/Tools/CMake/bin/cmake --regenerate-during-build -S/home/aracelli/Downloads/k/projekKripto -B/home/aracelli/Downloads/k/projekKripto/build/Desktop_Qt_6_9_2-Debug
   description = Re-running CMake...
   generator = 1
 

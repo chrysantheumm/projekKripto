@@ -1,5 +1,5 @@
-/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/projekkripto_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/aracelli/Kuliah/Kriptografi/projekkripto/mainwindow.h \
-  /home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/projekkripto_autogen/moc_predefs.h \
+/home/aracelli/Downloads/k/projekKripto/build/Desktop_Qt_6_9_2-Debug/projekkripto_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/aracelli/Downloads/k/projekKripto/mainwindow.h \
+  /home/aracelli/Downloads/k/projekKripto/build/Desktop_Qt_6_9_2-Debug/projekkripto_autogen/moc_predefs.h \
   /home/aracelli/Qt/6.9.2/gcc_64/include/QtCore/QString \
   /home/aracelli/Qt/6.9.2/gcc_64/include/QtCore/q17memory.h \
   /home/aracelli/Qt/6.9.2/gcc_64/include/QtCore/q20functional.h \
