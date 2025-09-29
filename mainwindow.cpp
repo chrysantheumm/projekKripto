@@ -13,7 +13,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-// pindah ke page Caesar
+// pindah ke page Super
 void MainWindow::on_pushButtonSuper_clicked()
 {
     ui->stackedWidget->setCurrentWidget(ui->pageSuper);
@@ -38,7 +38,7 @@ void MainWindow::on_pushButtonCaesar_clicked()
 }
 
 // pindah ke page Block
-void MainWindow::on_pushButtonCaesar_clicked()
+void MainWindow::on_pushButtonBlock_clicked()
 {
     ui->stackedWidget->setCurrentWidget(ui->pageBlock);
 }
@@ -73,11 +73,6 @@ void MainWindow::on_pushButtonBackBlock_clicked()
     ui->stackedWidget->setCurrentWidget(ui->pageUtama);
 }
 
-// Tombol Back Dari Super
-void MainWindow::on_pushButtonBackSuper_clicked()
-{
-    ui->stackedWidget->setCurrentWidget(ui->pageUtama);
-}
 
 
 

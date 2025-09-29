@@ -131,8 +131,21 @@
        <string>Block</string>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButtonSuper">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>330</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Super</string>
+      </property>
+     </widget>
     </widget>
-    <widget class="QWidget" name="page_5">
+    <widget class="QWidget" name="pageBlock">
      <widget class="QLineEdit" name="lineOutputBlock">
       <property name="geometry">
        <rect>
@@ -253,19 +266,6 @@
       </property>
       <property name="placeholderText">
        <string>Masukkan teks</string>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButtonSuper">
-      <property name="geometry">
-       <rect>
-        <x>300</x>
-        <y>330</y>
-        <width>201</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Super</string>
       </property>
      </widget>
     </widget>
@@ -564,7 +564,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>23</height>
+     <height>25</height>
     </rect>
    </property>
   </widget>

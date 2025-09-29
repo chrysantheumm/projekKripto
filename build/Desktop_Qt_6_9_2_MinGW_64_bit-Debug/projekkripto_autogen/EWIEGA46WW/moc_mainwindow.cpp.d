@@ -1,5 +1,5 @@
-C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/mainwindow.h \
-  C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/moc_predefs.h \
+C:/Users/milat/Documents/sementara/kuliyeah/github/projekKripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/milat/Documents/sementara/kuliyeah/github/projekKripto/mainwindow.h \
+  C:/Users/milat/Documents/sementara/kuliyeah/github/projekKripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/moc_predefs.h \
   C:/Qt/6.9.2/mingw_64/include/QtCore/QString \
   C:/Qt/6.9.2/mingw_64/include/QtCore/q17memory.h \
   C:/Qt/6.9.2/mingw_64/include/QtCore/q20functional.h \
