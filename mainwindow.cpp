@@ -274,10 +274,6 @@ void MainWindow::shiftASCII(QString &plain, int shiftValue)
         else if (c >= 'A' && c <= 'Z') {
             c = ((c - 'A' + (shiftValue % 26) + 26) % 26) + 'A';
         }
-        else {
-            c = c + 26 + shiftValue; // karakter non-alfabet ikut digeser
-        }
-
         plain[i] = c;
     }
 }
