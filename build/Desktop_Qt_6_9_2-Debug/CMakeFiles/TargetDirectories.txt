@@ -1,0 +1,9 @@
+/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/projekkripto.dir
+/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/edit_cache.dir
+/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/rebuild_cache.dir
+/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/list_install_components.dir
+/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/install.dir
+/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/install/local.dir
+/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/install/strip.dir
+/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/projekkripto_autogen_timestamp_deps.dir
+/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/CMakeFiles/projekkripto_autogen.dir
