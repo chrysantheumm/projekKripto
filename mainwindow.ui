@@ -159,10 +159,10 @@
        <string>  Hasil Akan Tampil Disini</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButtonBlocDecrypt">
+     <widget class="QPushButton" name="pushButtonBlockDecrypt">
       <property name="geometry">
        <rect>
-        <x>250</x>
+        <x>410</x>
         <y>320</y>
         <width>94</width>
         <height>26</height>
@@ -219,7 +219,7 @@
      <widget class="QPushButton" name="pushButtonBlockEncrypt">
       <property name="geometry">
        <rect>
-        <x>410</x>
+        <x>260</x>
         <y>320</y>
         <width>94</width>
         <height>26</height>
@@ -674,7 +674,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>23</height>
+     <height>25</height>
     </rect>
    </property>
   </widget>
