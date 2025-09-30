@@ -82,11 +82,15 @@ void MainWindow::on_pushButtonDecryptSuper_clicked()
     int shiftValue = ui->lineEditShiftSuper->text().toInt();
     QString kataKunci = ui->lineEditInputSuper2->text() ;
     QString kunciXor = ui->lineEditInputSuper3->text();
+    QString kunciBlock = ui->lineEditInputSuper4->text();
 
+    BlockDecrypt(text, kunciBlock);
     XorDecrypt(text, kunciXor);
     decryptviginere(text, kataKunci);
     shiftASCII(text, -shiftValue);
-    ui->lineOutputSuper->setText(text);
+
+
+    ui->lineOutputSuper->setText(text);\
 
 }
 
@@ -97,6 +101,7 @@ void MainWindow::on_pushButtonDecryptSuper_clicked()
         int shiftValue = ui->lineEditShiftSuper->text().toInt();
         QString kataKunci = ui->lineEditInputSuper2->text() ;
         QString kunciXor = ui->lineEditInputSuper3->text();
+        QString kunciBlock = ui->lineEditInputSuper4->text();
 
         //enkripsi caesar
         shiftASCII(text, shiftValue);
@@ -104,6 +109,9 @@ void MainWindow::on_pushButtonDecryptSuper_clicked()
         viginere(text, kataKunci);
         //enkripsi XOR
         XorEncrypt(text, kunciXor);
+        //enkripsi block
+        BlockEncrypt(text, kunciBlock);
+
         ui->lineOutputSuper->setText(text);
 
 }
