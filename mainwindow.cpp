@@ -161,25 +161,25 @@ void MainWindow::on_pushButtonDecryptViginere_clicked()
     ui->lineOutputViginere->setText(text);
 }
 
-// Tombol Encrypt XOR
-void MainWindow::on_pushButtonXorEncrypt_clicked()
-{
-    QString text = ui->lineEditInputXor->text();
-    QString key = ui->lineEditInputXor2->text();
+    // Tombol Encrypt XOR
+    void MainWindow::on_pushButtonXorEncrypt_clicked()
+    {
+        QString text = ui->lineEditInputXor->text();
+        QString key = ui->lineEditInputXor2->text();
 
-    XorEncrypt(text, key);
-    ui->lineOutputXor->setText(text);
-}
+        XorEncrypt(text, key);
+        ui->lineOutputXor->setText(text);
+    }
 
-// Tombol Decrypt XOR
-void MainWindow::on_pushButtonXorDecrypt_clicked()
-{
-    QString text = ui->lineEditInputXor->text();
-    QString key = ui->lineEditInputXor2->text();
+    // Tombol Decrypt XOR
+    void MainWindow::on_pushButtonXorDecrypt_clicked()
+    {
+        QString text = ui->lineEditInputXor->text();
+        QString key = ui->lineEditInputXor2->text();
 
-    XorDecrypt(text, key);
-    ui->lineOutputXor->setText(text);
-}
+        XorDecrypt(text, key);
+        ui->lineOutputXor->setText(text);
+    }
 
 // Tombol Encrypt Block
 void MainWindow::on_pushButtonBlockEncrypt_clicked()
